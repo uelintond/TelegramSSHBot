@@ -5,7 +5,7 @@ import telebot
 TOKEN = 'SEU_TOKEN_AQUI'
 bot = telebot.TeleBot(TOKEN)
 
-
+# O chat id é importante para garantir que apenas você possa executar os comandos.
 CHAT_ID = 0000000000  # Defina o seu ID de chat
 
 HOST = 'IP_DO_SEU_SERVIDOR'  # Defina as informações do servidor Linode
